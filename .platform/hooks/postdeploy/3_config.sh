@@ -7,7 +7,7 @@ mv /var/www/html/.eb-benstalk/templates/stage/php.ini /etc/php.ini
 mv /var/www/html/.eb-benstalk/templates/stage/composer.json /var/www/html/composer.json
 mv /var/www/html/.eb-benstalk/templates/stage/composer.lock /var/www/html/composer.lock
 #mv /var/www/html/.eb-benstalk/templates/stage/redis-cli.conf /etc/stunnel/redis-cli.conf
-mv /var/www/html/.eb-benstalk/templates/stage/logs.log /var/www/html/config/local/logs.log
+mv /var/www/html/.eb-benstalk/templates/stage/logs.log /var/logs/logs.log
 mv /var/www/html/.eb-benstalk/templates/stage/htaccess /var/www/html/.htaccess
 mv .htaccess htaccess 
 mv /var/www/html/.eb-benstalk/templates/stage/database.yml /var/www/html/config/local/database.yml
